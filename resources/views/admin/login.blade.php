@@ -87,7 +87,7 @@
                 </div>
               @endif
               <!-- /Logo -->
-              <p class="mb-4">Silahkan masuk dengan akun yang terdaftar.</p>
+              <p class="mb-4">Silahkan masuk menggunakan akun yang terdaftar.</p>
 
               <form id="formAuthentication" class="mb-3" action="/login" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
