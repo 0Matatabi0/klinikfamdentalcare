@@ -54,7 +54,7 @@
 
             <div class="text-center">
                 <h3>Keadaan darurat? Butuh bantuan?</h3>
-                <p> Pasien yang akan melakukan konsultasi atau tindakan silahkan melakukan Appointment dibawah ini!
+                <p> Pasien yang akan berkunjung silahkan melakukan Appointment dibawah ini!
                 </p>
                 <a class="cta-btn scrollto" href="/appointment">Make an Appointment</a>
             </div>
@@ -96,7 +96,7 @@
 
             <div class="section-title">
                 <h2>Services</h2>
-                <p>Family Dental Care memiliki beberapa layanan perawatan gigi, segera atasi masalah gigi anda dengan melakukan konsultasi terlebih dahulu di Family Dental Care.</p>
+                <p>Family Dental Care memiliki beberapa layanan perawatan gigi, segera konsultasi di Family Dental Care.</p>
             </div>
 
             <div class="row">
