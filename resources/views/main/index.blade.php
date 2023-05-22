@@ -248,11 +248,10 @@
                                 <h3>Our Address</h3>
                                 <p>Jl. Leuwi Panjang No.52a, Situsaeur, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat
                                     40234</p>
-                                <div class="info-box mt-4">
-                                    <a href="https://www.google.com/maps/dir//Jl.+Leuwi+Panjang+No.52a,+Situsaeur,+Kec.
-                                    +Bojongloa+Kidul,+Kota+Bandung,+Jawa+Barat+40234/@-6.9407825,107.5264023,12z/data
-                                    =!4m8!4m7!1m0!1m5!1m1!1s0x2e68e8bd6cd8c397:0x1d7b143e603986b2!2m2!1d107.5964429!2d-6.9407876" class="appointment-btn scrollto"><span class="d-none d-md-inline">G</span>O</a>
-                                </div>
+                                <a href="https://www.google.com/maps/dir//Jl.+Leuwi+Panjang+No.52a,+Situsaeur,+Kec.
+                                +Bojongloa+Kidul,+Kota+Bandung,+Jawa+Barat+40234/@-6.9407825,107.5264023,12z/data
+                                =!4m8!4m7!1m0!1m5!1m1!1s0x2e68e8bd6cd8c397:0x1d7b143e603986b2!2m2!1d107.5964429!2d-6.9407876" class="appointment-btn scrollto"><span class="d-none d-md-inline">G</span>O</a>
+    
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -260,6 +259,7 @@
                                 <i class="bx bx-envelope"></i>
                                 <h3>Email Us</h3>
                                 <p>fdcbandung52@gmail.com</p>
+                                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjRPhcjXNgQSrlzQFQbNqrzTmTGWfWwWQkRngtPVlQsNnkXTBWbsxGrmVgTxjRcRnSFWJJ" class="appointment-btn scrollto"><span class="d-none d-md-inline">G</span>O</a>
                             </div>
                         </div>
                         <div class="col-md-6">
