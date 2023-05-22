@@ -3,8 +3,8 @@
 @section('content')
 @if ((count($pasien) != 0))
 <div class="container-xxl flex-grow-1 container-p-y">
-    <h3 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"><a href="/admin-area" class="a-breadcrumbs">Beranda</a> / <a href="/admin-area/pasien"
-        class="a-breadcrumbs">Data Pasien</a> / </span> Pasien Bayar</h3>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"><a href="/admin-area" class="a-breadcrumbs">Beranda</a> / <a href="/admin-area/pasien"
+        class="a-breadcrumbs">Data Pasien</a> / </span> Pasien Bayar</h4>
     <div class="mb-3">
         <i class="text-middle" data-feather="file-plus"></i>
         <h1 class="h3 d-inline align-middle">Form Pembayaran</h1>
@@ -15,7 +15,7 @@
                 <form action="/admin-area/pasien/edit/update" method="POST" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <div class="card-header">
-                        <h4 class="card-title mb-0">Bayar</h4>
+                        <h5 class="card-title mb-0">Bayar</h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
