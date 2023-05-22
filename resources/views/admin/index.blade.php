@@ -114,7 +114,7 @@
             <div class="card h-100">
                 <div class="card-header">
                     <div class="card-title mb-0">
-                        <h5 class="m-0 me-2">Website Traffic (Per Week)</h5>
+                        <h5 class="m-0 me-2">Website Traffic (Per Month)</h5>
                     </div>
                 </div>
                 <div class="card-body px-0">
