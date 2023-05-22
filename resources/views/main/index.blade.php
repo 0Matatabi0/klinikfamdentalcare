@@ -12,7 +12,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
                 <div class="container">
-                    <h2>Welcome to <span>Familyas Dental Care</span></h2>
+                    <h2>Welcome to <span>Family Dental Care</span></h2>
                     <p></p>
                 </div>
             </div>
