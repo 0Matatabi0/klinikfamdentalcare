@@ -53,9 +53,9 @@
         <div class="container" data-aos="zoom-in">
 
             <div class="text-center">
-                <h3>Dalam keadaan darurat? Butuh bantuan?</h3>
+                <h3>Keadaan darurat? Butuh bantuan?</h3>
                 <p> Pasien yang akan melakukan konsultasi atau tindakan silahkan melakukan Appointment dibawah ini!
-                    </p>
+                </p>
                 <a class="cta-btn scrollto" href="/appointment">Make an Appointment</a>
             </div>
 
@@ -65,7 +65,7 @@
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
-            
+
             <div class="section-title">
                 <h2>Family Dental Care</h2>
                 <p>{!! html_entity_decode($tentang -> informasi_umum) !!}</p>
@@ -103,7 +103,7 @@
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon"><i class="fas fa-hospital-user"></i></div>
                     <h4 class="title"><a href="">Konsultasi</a></h4>
-                    <p class="description">Kontrol rutin bermanfaat untuk memelihara kesehatan gigi dan mulut, mendeteksi masalah gigi sejak dini, 
+                    <p class="description">Kontrol rutin bermanfaat untuk memelihara kesehatan gigi dan mulut, mendeteksi masalah gigi sejak dini,
                         sehingga memberikan penanganan yang tepat dan akurat untuk menghindari kondisi yang terlanjur parah.</p>
                 </div>
                 <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
@@ -140,7 +140,7 @@
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon"><i class="fas fa-stethoscope"></i></div>
                     <h4 class="title"><a href="">Bedah Minor</a></h4>
-                    <p class="description">Bedah minor merupakan prosedur pencabutan gigi dengan menggunakan anestesi lokal yang dilakukan untuk pengambilan gigi geraham bungsu yang tumbuhnya miring, 
+                    <p class="description">Bedah minor merupakan prosedur pencabutan gigi dengan menggunakan anestesi lokal yang dilakukan untuk pengambilan gigi geraham bungsu yang tumbuhnya miring,
                         Gigi yang memiliki kelainan kondisi, ataupun penghalusan penonjolan tulang yang mengganggu.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
@@ -179,17 +179,17 @@
             <div class="row">
                 @foreach ($dokter as $data)
                 <div class="col-lg-3 col-md-6 d-flex align-items">
-                            <div class="member" data-aos="fade-up" data-aos-delay="100">
-                            <div class="member-img">
-                            <img src="{{ asset('img/dokter/'.$data -> images) }}" class="img-fluid"  >
-                            </div>
-                            <div class="member-info">
-                                <h4>{{ $data -> nama_dokter }}</h4>
-                                <p>----------------------------------------</p>
-                                <h4>Jadwal : {{ $data -> jadwal_dokter }}</h4>
-                                <span> </span>
-                            </div>
-                        </div>   
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="{{ asset('img/dokter/'.$data -> images) }}" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h4>{{ $data -> nama_dokter }}</h4>
+                            <p>----------------------------------------</p>
+                            <h4>Jadwal : {{ $data -> jadwal_dokter }}</h4>
+                            <span> </span>
+                        </div>
+                    </div>
                 </div>
                 @endforeach
             </div>
@@ -203,15 +203,14 @@
 
             <div class="section-title">
                 <h2>Gallery</h2>
-                
+
             </div>
             <div class="gallery-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                     @foreach ($galeri as $data)
-                    <div class="swiper-slide"><a class="gallery-lightbox"><img
-                         src="{{ asset('/img/gallery/'.$data -> images) }}" class="img-fluid" alt="" ></a>
-                         <h4>{{ $data -> judul }}</h4>
-                        </div>
+                    <div class="swiper-slide"><a class="gallery-lightbox"><img src="{{ asset('/img/gallery/'.$data -> images) }}" class="img-fluid" alt=""></a>
+                        <h4>{{ $data -> judul }}</h4>
+                    </div>
                     @endforeach
                 </div>
                 <div class="swiper-pagination"></div>
@@ -233,9 +232,7 @@
         </div>
 
         <div>
-            <iframe style="border:0; width: 100%; height: 350px;"
-                src="https://maps.google.com/maps?q=family%20dental%20care&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" allowfullscreen></iframe>
+            <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?q=family%20dental%20care&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div class="container">
@@ -250,12 +247,11 @@
                                 <i class="bx bx-map"></i>
                                 <h3>Our Address</h3>
                                 <p>Jl. Leuwi Panjang No.52a, Situsaeur, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat
-                                40234</p>
+                                    40234</p>
                                 <div class="info-box mt-4">
                                     <a href="https://www.google.com/maps/dir//Jl.+Leuwi+Panjang+No.52a,+Situsaeur,+Kec.
                                     +Bojongloa+Kidul,+Kota+Bandung,+Jawa+Barat+40234/@-6.9407825,107.5264023,12z/data
-                                    =!4m8!4m7!1m0!1m5!1m1!1s0x2e68e8bd6cd8c397:0x1d7b143e603986b2!2m2!1d107.5964429!2d-6.9407876" 
-                                    class="appointment-btn scrollto"><span class="d-none d-md-inline">G</span>O</a>
+                                    =!4m8!4m7!1m0!1m5!1m1!1s0x2e68e8bd6cd8c397:0x1d7b143e603986b2!2m2!1d107.5964429!2d-6.9407876" class="appointment-btn scrollto"><span class="d-none d-md-inline">G</span>O</a>
                                 </div>
                             </div>
                         </div>
@@ -282,4 +278,4 @@
         </div>
     </section><!-- End Contact Section -->
 
-@endsection
+    @endsection
