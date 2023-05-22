@@ -20,7 +20,7 @@
             <!-- Slide 2 -->
             <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
                 <div class="container">
-                    <h2>Welcome to <span>Family Dental Care</span></h2>
+                    <h2>Welcome to <span>Fam ily Dental Care</span></h2>
                     <p></p>
                 </div>
             </div>
