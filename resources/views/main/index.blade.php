@@ -53,7 +53,7 @@
         <div class="container" data-aos="zoom-in">
 
             <div class="text-center">
-                <h3>Dalam keadaan darurat? Butuh bantuan?!!</h3>
+                <h3>Dalam keadaan darurat? Butuh bantuan?</h3>
                 <p> Pasien yang akan melakukan konsultasi atau tindakan silahkan melakukan Appointment dibawah ini!
                     </p>
                 <a class="cta-btn scrollto" href="/appointment">Make an Appointment</a>
@@ -106,10 +106,15 @@
                     <p class="description">Kontrol rutin bermanfaat untuk memelihara kesehatan gigi dan mulut, mendeteksi masalah gigi sejak dini, 
                         sehingga memberikan penanganan yang tepat dan akurat untuk menghindari kondisi yang terlanjur parah.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon"><i class="fas fa-teeth"></i></div>
                     <h4 class="title"><a href="">Penambalan Gigi</a></h4>
                     <p class="description">Prosedur penambalan gigi bertujuan untuk mengembalikan bentuk dan fungsi gigi yang rusak atau berlubang.</p>
+                </div> -->
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-teeth"></i></div>
+                    <h4 class="title"><a href="">Penambalan Gigi</a></h4>
+                    <p class="description">Family Dental Care menyediakan pelayanan penambalan gigi yang bertujuan untuk mengembalikan bentuk dan fungsi gigi yang rusak atau berlubang.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon"><i class="fas fa-teeth-open"></i></div>
